@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="description" content="Compre a sua bicicleta personalizada na Bikcraft. Possuímos modelos Passeio, Retrô e Esporte.">   
+    <!--  FIM Descrição do google  -->
+    <!--  tags para ajudar na hora de compartilhar o site (tipo o link youtube no whatsapp)  -->
+    <meta property="og:type" content="website"/>
+		<meta property="og:title" content="Bikcraft - Bicicletas Personalizadas"/>
+		<meta property="og:description" content="Compre a sua bicicleta personalizada na Bikcraft. Possuímos modelos Passeio, Retrô e Esporte."/>
+		<meta property="og:url" content="http://bikcraft.com/contato.html"/>
+		<meta property="og:image" content="http://bikcraft.com/img/og-image.png"/>
+    <!-- FIM tags para ajudar na hora de compartilhar o site (tipo o link youtube no whatsapp)  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--  FAVICON -->
+    <link rel="shortcut icon" href="favicon.png">
+    <!--  FIM Favicon  -->
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Bikcraft/css/normalize.css">
+    <link rel="stylesheet" href="/Bikcraft/css/reset.css">
+    <link rel="stylesheet" href="/Bikcraft/css/grid.css">
+    <link rel="stylesheet" href="/Bikcraft/css/style.css">
+    <link rel="stylesheet" href="/Bikcraft/css/contato.css">
+    <link rel="stylesheet" href="/Bikcraft/css/responsivo.css">
+  
+    
+    <title>Bikcraft - Contato</title>
+</head>
+<body>
+ <!--  Sessão Header -->
+  <header class="header">
+      <div class="container">
+          <a href="/Bikcraft/index.html" class="grid-4">
+            <img src="/Bikcraft/img/bikcraft.svg" alt="">
+          </a>
+          <nav class="grid-12 header_menu">
+              <ul>
+                  <li><a href="/Bikcraft/sobre.html">Sobre</a></li>
+                  <li><a href="/Bikcraft/produtos.html">Produtos</a></li>
+                  <li><a href="/Bikcraft/portfolio.html">Portfólio</a></li>
+                  <li><a href="/Bikcraft/contato.html"class="ativo">Contato</a></li>
+              </ul>
+          </nav>
+      </div>
+  </header>
+<!--  FIM Sessão Header -->
+
+<!--  Sessão Introdução -->
+  <section class="introducao-contato">
+    <div class="container">
+        <h1 data-anime="100" class="fadeInDown">Contato</h1>
+        <p data-anime="200" class="fadeInDown">tire suas dúvidas com a gente</p>
+    </div>
+    </section> 
+<!--  FIM Sessão Introdução -->
+
+<!--  Sessão orçamento  -->
+<section class="orcamento fadeInDown" data-anime="500">
+    <div class="container">
+      
+        <form id="form_orcamento"  method="POST" action="./enviar.php"  class="form grid-8 formphp" >
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" required>
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" required>
+          <label for="telefone">Telefone</label>
+          <input type="text" id="telefone" name="telefone">
+          <!--  Caso um BOT de spam queira atrapalhar o formulario, os campos em brancos escondidos nao enviam o email  -->
+          <label class="nao-aparece">Se você é um robô, deixe em branco.</label>
+          <input type="text" class ="nao-aparece" name="embranco">
+          <label class="nao-aparece">Se você não é um robô, não mude esse campo.</label>
+          <input type="text" class ="nao-aparece" name="naomude" value="http://">
+          <!-- FIM DO BOT  -->
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" required></textarea>
+          <button id="enviar" name="enviar"type="submit" class="btn">Enviar</button>
+        </form>
+  
+       <div class="dados_orcamento grid-8">
+        <h3>Dados</h3>
+        <span>+55 (31) 3441-9186</span>
+        <span>orcamento@bikcraft.com</span>
+        <span>Av. Doutor Cristiano Guimarães 1913 - Planalto</span>
+        <span>Belo Horizonte - Minas Gerais</span>
+        </div> 
+        <div class="grid-4 footer_sociais" >
+            <h3>Redes Sociais</h3>
+            <ul>
+              <li><a href="http://facebook.com" target="_blank"><img src="/img/redes-sociais/facebook.svg" alt="Logo Facebook"></a></li>
+              <li><a href="http://instagram.com" target="_blank"><img src="img/redes-sociais/instagram.svg" alt="Logo Instagram"></a></li>
+              <li><a href="http://twitter.com" target="_blank"><img src="/img/redes-sociais/twitter.svg" alt="Logo Twitter"></a></li>
+            </ul>
+          </div>
+
+          <div class="endereco_bikcraft">
+              <img src="/Bikcraft/img/endereco-bikcraft.jpg">
+          </div>
+        
+    </div>
+  </section>
+  
+<!--  FIM Sessão Orçamento -->
+
+
+
+
+
+
+
+
+  
+  <!-- Sessão Footer -->
+  <footer>
+    <div class="footer">    <!-- serve não só para semantica (como a tag footer, mas sim para usar o fundo preto) -->
+      <div class="container">
+        <div class="grid-8 footer_historia">
+          <h3>Nossa História</h3>
+          <p>o verdadeiro significao da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana.
+          todos os detalhes da vida cotidiana</p>
+        </div>
+  
+        <div class="grid-4 footer_contato">
+          <h3>Contato</h3>
+          <ul>
+            <li>- (31) 3441-9186</li>
+            <li>- contato@bikcraft.com</li>
+            <li>- Belo Horizonte - MG</li>
+          </ul>
+        </div>
+  
+        <div class="grid-4 footer_sociais" >
+          <h3>Redes Sociais</h3>
+          <ul>
+            <li><a href="http://facebook.com" target="_blank"><img src="/Bikcraft/img/redes-sociais/facebook.svg" alt="Logo Facebook"></a></li>
+            <li><a href="http://instagram.com" target="_blank"><img src="/Bikcraft/img/redes-sociais/instagram.svg" alt="Logo Instagram"></a></li>
+            <li><a href="http://twitter.com" target="_blank"><img src="/Bikcraft/img/redes-sociais/twitter.svg" alt="Logo Twitter"></a></li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </div>
+    
+    <div class="copyright">
+      <div class="container">
+        <p class="grid-16">Bikcraft 2021 - Alguns direitos reservados.</p>
+    </div>
+  <!-- FIM Sessão Footer -->
+  </footer>
+<script src="/Bikcraft/js/simple-slide.js"></script>
+<script src="/Bikcraft/js/simple-form.js"></script>
+<script src="/Bikcraft/js/simple-anime.js"></script>
+<script src="/Bikcraft/js/script.js"></script>
+</body>
+</html>
