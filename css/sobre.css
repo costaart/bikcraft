@@ -1,0 +1,72 @@
+.introducao-sobre {                           /*estilizar a div da foto do titulo*/ 
+    width: 100%;
+    height: 160px;
+    background: url("../img/bg-sobre.jpg") no-repeat center;
+    background-size: cover;
+    margin-top: 92px;
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.introducao-sobre h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: bold;
+       
+}
+.introducao-sobre h1:after {
+    content: "";
+    margin: 6px auto 10px auto;
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #FFF;
+}
+
+.missao_valores {
+    padding-top: 60px;
+}
+
+.missao_valores p{
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: .1em;
+    padding-right: 60px;
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+
+.missao_valores ul li{
+    font-size: 18px;
+    line-height: 30px;
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+
+.subtitulo-interno{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+
+}
+.subtitulo-interno:after{
+    content: "";
+    background: #000;
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 8px 0;
+
+}
+
+.foto_equipe{
+    padding-top: 40px;
+}
+
